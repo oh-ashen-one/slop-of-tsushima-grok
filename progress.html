@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>EP-02 Golden Field — live progress</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root {
+    --ink: #f3ead6;
+    --dim: #9a8b6e;
+    --bg: #0c0a08;
+    --panel: #16120c;
+    --gold: #d4b45c;
+    --line: #2a2418;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: var(--bg); color: var(--ink);
+    font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif; }
+  header { padding: 28px 32px 12px; border-bottom: 1px solid var(--line); }
+  header h1 { margin: 0; font-weight: 400; letter-spacing: .28em; font-size: 22px; color: var(--gold); }
+  header p { margin: 8px 0 0; color: var(--dim); font-size: 13px; letter-spacing: .08em; }
+  .wave { padding: 18px 32px 8px; color: var(--gold); font-size: 11px; letter-spacing: .32em; text-transform: uppercase; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; padding: 8px 32px 32px; }
+  article { background: var(--panel); border: 1px solid var(--line); padding: 12px; }
+  article h2 { margin: 0 0 8px; font-size: 14px; font-weight: 400; letter-spacing: .12em; color: var(--gold); }
+  article .status { font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--dim); margin-bottom: 8px; }
+  article .status.go { color: #8fbf6a; }
+  article .status.wait { color: #d4b45c; }
+  article .status.no { color: #c07050; }
+  article img { width: 100%; height: 150px; object-fit: cover; background: #000; display: block; }
+  article p { font-size: 13px; line-height: 1.45; color: var(--ink); margin: 8px 0 0; }
+  .pair { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  .pair span { display: block; font-size: 10px; letter-spacing: .16em; text-transform: uppercase; color: var(--dim); margin-bottom: 4px; }
+  footer { padding: 0 32px 40px; color: var(--dim); font-size: 12px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>GOLDEN FIELD</h1>
+  <p>EP-02 · Grok 4.6 · live director board · updated wave 0 (stock baseline)</p>
+</header>
+
+<div class="wave">Wave 0 — stock RED SANDS vs Iki Island references</div>
+<div class="grid">
+  <article>
+    <h2>Hero vista</h2>
+    <div class="status no">gap: western buttes, not a gold field</div>
+    <div class="pair">
+      <div><span>ours</span><img src="shots/latest/golden_hour_vista.png" alt="ours vista"></div>
+      <div><span>ref</span><img src="references/field_16.png" alt="ref field"></div>
+    </div>
+    <p>Stock is a dusty basin with mesa stacks. Target is waist-high gold grass, tall thin pines, god rays, a dark rider.</p>
+  </article>
+  <article>
+    <h2>On foot / horse</h2>
+    <div class="status no">gap: cowboy, ankle grass, dark soil</div>
+    <div class="pair">
+      <div><span>ours</span><img src="shots/latest/player_third_person.png" alt="ours player"></div>
+      <div><span>ref</span><img src="references/field_2.png" alt="ref rider"></div>
+    </div>
+    <p>Procedural cowboy still in frame. Grass is shin-high on bare dirt. Camera sits too high.</p>
+  </article>
+  <article>
+    <h2>Ride through grass</h2>
+    <div class="status no">not yet</div>
+    <div class="pair">
+      <div><span>ours forest</span><img src="shots/latest/forest_interior.png" alt="ours forest"></div>
+      <div><span>ref</span><img src="references/field_9.png" alt="ref ride"></div>
+    </div>
+    <p>Need dense gold sward, white flowers, shafts of light, petals.</p>
+  </article>
+  <article>
+    <h2>Stream crossing</h2>
+    <div class="status no">not yet</div>
+    <div class="pair">
+      <div><span>ours river</span><img src="shots/latest/river_bend.png" alt="ours river"></div>
+      <div><span>ref</span><img src="references/field_24.png" alt="ref stream"></div>
+    </div>
+    <p>Need a spawn-near stream, pampas, a log or stone bridge, rider silhouette.</p>
+  </article>
+  <article>
+    <h2>Shrine</h2>
+    <div class="status no">western false-fronts</div>
+    <div class="pair">
+      <div><span>ours town</span><img src="shots/latest/town_street.png" alt="ours town"></div>
+      <div><span>ref</span><img src="references/shrine_night.png" alt="ref shrine"></div>
+    </div>
+    <p>Replace the settlement with a small shrine: torii, honden, stone lanterns, gravel.</p>
+  </article>
+</div>
+
+<div class="wave">Piece status</div>
+<div class="grid">
+  <article><h2>Ronin hero</h2><div class="status wait">builder dispatched</div><p>Swap cowboy for <code>public/assets/ronin.glb</code>. Drive idle / walk / mount / ride.</p></article>
+  <article><h2>Camera</h2><div class="status wait">builder dispatched</div><p>Lower, wider, Ghost-of-Tsushima over-the-shoulder through the grass.</p></article>
+  <article><h2>Grass</h2><div class="status wait">builder dispatched</div><p>Waist-high gold, pampas tips, white flower specks, dense enough to hide the soil.</p></article>
+  <article><h2>Trees</h2><div class="status wait">builder dispatched</div><p>Tall thin pines + a few maples. Open meadow with stands, not confetti.</p></article>
+  <article><h2>Terrain</h2><div class="status wait">builder dispatched</div><p>Rolling grassland. Far blue mountains. Stream near spawn. Kill the midground buttes.</p></article>
+  <article><h2>Shrine town</h2><div class="status wait">builder dispatched</div><p>Torii, shrine hall, stone lanterns. Keep POI names <code>town</code> / <code>town_end</code>.</p></article>
+  <article><h2>Scatter / bridge</h2><div class="status wait">builder dispatched</div><p>Log bridge, no cactus/skulls/yucca. Rocks and fallen timber only.</p></article>
+  <article><h2>Petals</h2><div class="status wait">builder dispatched</div><p>Drifting petals and leaves through the golden volume.</p></article>
+  <article><h2>Palette</h2><div class="status wait">builder dispatched</div><p>Recipes: dusty brown → gold/green field.</p></article>
+  <article><h2>Atmosphere</h2><div class="status wait">builder dispatched</div><p>God rays, warm haze, film grade. One owner for sky/clouds/grade.</p></article>
+  <article><h2>HUD / boot</h2><div class="status wait">builder dispatched</div><p>Ink-on-gold Japanese title. Hide the western gun/wanted chrome.</p></article>
+</div>
+<footer>Captures: <code>npm run capture:fast</code> · critics judge pixels, never the builder's summary.</footer>
+</body>
+</html>

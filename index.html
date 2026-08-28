@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+<title>Golden Field</title>
+<meta name="description" content="A golden field at dusk — tall grass, pine, and a quiet ride. In the browser.">
+<meta name="theme-color" content="#050403">
+<link rel="canonical" href="https://red-sands.vercel.app/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Golden Field">
+<meta property="og:title" content="Golden Field">
+<meta property="og:description" content="A golden field at dusk — tall grass, pine, and a quiet ride. In the browser.">
+<meta property="og:url" content="https://red-sands.vercel.app/">
+<meta property="og:image" content="https://red-sands.vercel.app/og.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Golden grassland at dusk, pines in haze, a dark rider in the light.">
+
+<!-- Twitter / X -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Golden Field">
+<meta name="twitter:description" content="A golden field at dusk — tall grass, pine, and a quiet ride. In the browser.">
+<meta name="twitter:image" content="https://red-sands.vercel.app/og.jpg">
+<meta name="twitter:image:alt" content="Golden grassland at dusk, pines in haze, a dark rider in the light.">
+
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<style>
+  html,body{margin:0;padding:0;height:100%;overflow:hidden;background:#000;color:#d4b45c;
+    font-family:"Hiragino Mincho ProN","Hiragino Mincho Pro","Yu Mincho","YuMincho","MS PMincho","Songti SC","Times New Roman",Georgia,serif;
+    -webkit-font-smoothing:antialiased}
+  #app{position:fixed;inset:0}
+  canvas{display:block;width:100%;height:100%;outline:none}
+  #boot{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;
+    flex-direction:column;gap:18px;background:#000;z-index:100;transition:opacity 1.4s ease}
+  #boot.gone{opacity:0;pointer-events:none}
+  #boot h1{font-size:clamp(18px,3.4vw,32px);letter-spacing:.62em;margin:0;font-weight:400;
+    color:#d4b45c;text-indent:.62em}
+  #boot .kana{letter-spacing:.55em;font-size:clamp(12px,1.5vw,16px);color:#8a7340;
+    text-indent:.55em;font-weight:400}
+  #bar{width:min(168px,36vw);height:1px;background:#1c1810;position:relative;overflow:hidden;margin-top:6px}
+  #bar i{position:absolute;inset:0 100% 0 0;background:#d4b45c;
+    transition:right .35s ease}
+  #boot .task{font-size:10px;letter-spacing:.32em;color:#4a4338;text-transform:lowercase;height:1em;margin-top:4px}
+</style>
+</head>
+<body>
+<div id="app"></div>
+<div id="boot">
+  <h1>GOLDEN FIELD</h1>
+  <div class="kana">黄金の野</div>
+  <div id="bar"><i id="barfill"></i></div>
+  <div class="task" id="boottask">initialising</div>
+</div>
+<script type="module" src="/src/main.js"></script>
+</body>
+</html>

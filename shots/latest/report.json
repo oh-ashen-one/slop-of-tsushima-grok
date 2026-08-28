@@ -1,0 +1,639 @@
+{
+  "url": "http://127.0.0.1:5176",
+  "shots": [
+    {
+      "name": "golden_hour_vista",
+      "file": "/Users/darkeatermidir/ai-game-arena/runs/ep02/grok/main/shots/latest/golden_hour_vista.png",
+      "desc": "Wide valley vista, low golden sun, long shadows, haze layers",
+      "ms": 502,
+      "stats": {
+        "drawCalls": 53,
+        "triangles": 229162,
+        "programs": 78,
+        "textures": 93,
+        "geometries": 40,
+        "frameMs": 4.467081945965546,
+        "quality": "medium",
+        "failedSystems": [
+          "terrain",
+          "water"
+        ],
+        "systemMs": [
+          [
+            "__render",
+            3.68
+          ],
+          [
+            "sky",
+            0.44
+          ],
+          [
+            "lighting",
+            0.13
+          ],
+          [
+            "wildlife",
+            0.08
+          ],
+          [
+            "horse",
+            0.06
+          ],
+          [
+            "player",
+            0.05
+          ],
+          [
+            "clouds",
+            0.03
+          ],
+          [
+            "weather",
+            0.02
+          ],
+          [
+            "particles",
+            0.02
+          ],
+          [
+            "timeOfDay",
+            0.01
+          ]
+        ],
+        "gpuFrameMs": 3.9866666669646897
+      }
+    },
+    {
+      "name": "dawn_mist_valley",
+      "file": "/Users/darkeatermidir/ai-game-arena/runs/ep02/grok/main/shots/latest/dawn_mist_valley.png",
+      "desc": "Cold blue dawn, ground mist in the low ground, sun just cresting",
+      "ms": 597,
+      "stats": {
+        "drawCalls": 62,
+        "triangles": 240598,
+        "programs": 89,
+        "textures": 93,
+        "geometries": 40,
+        "frameMs": 4.903694552203343,
+        "quality": "medium",
+        "failedSystems": [
+          "terrain",
+          "water"
+        ],
+        "systemMs": [
+          [
+            "__render",
+            4.36
+          ],
+          [
+            "sky",
+            0.17
+          ],
+          [
+            "wildlife",
+            0.07
+          ],
+          [
+            "lighting",
+            0.04
+          ],
+          [
+            "horse",
+            0.03
+          ],
+          [
+            "weather",
+            0.02
+          ],
+          [
+            "player",
+            0.02
+          ],
+          [
+            "timeOfDay",
+            0.02
+          ],
+          [
+            "clouds",
+            0.01
+          ],
+          [
+            "physics",
+            0.01
+          ]
+        ],
+        "gpuFrameMs": 4.706666666766008
+      }
+    },
+    {
+      "name": "high_noon_desert",
+      "file": "/Users/darkeatermidir/ai-game-arena/runs/ep02/grok/main/shots/latest/high_noon_desert.png",
+      "desc": "Harsh overhead light, heat haze, arid rock and scrub",
+      "ms": 1031,
+      "stats": {
+        "drawCalls": 52,
+        "triangles": 211962,
+        "programs": 103,
+        "textures": 93,
+        "geometries": 40,
+        "frameMs": 15.528286612588467,
+        "quality": "medium",
+        "failedSystems": [
+          "terrain",
+          "water"
+        ],
+        "systemMs": [
+          [
+            "__render",
+            14.07
+          ],
+          [
+            "lighting",
+            0.31
+          ],
+          [
+            "sky",
+            0.23
+          ],
+          [
+            "wildlife",
+            0.05
+          ],
+          [
+            "horse",
+            0.04
+          ],
+          [
+            "player",
+            0.03
+          ],
+          [
+            "timeOfDay",
+            0.03
+          ],
+          [
+            "clouds",
+            0.02
+          ],
+          [
+            "weather",
+            0.02
+          ],
+          [
+            "physics",
+            0.02
+          ]
+        ],
+        "gpuFrameMs": 6.590000000099341
+      }
+    },
+    {
+      "name": "town_street",
+      "file": "/Users/darkeatermidir/ai-game-arena/runs/ep02/grok/main/shots/latest/town_street.png",
+      "desc": "Main street of the settlement, buildings, props, warm afternoon",
+      "ms": 4977,
+      "stats": {
+        "drawCalls": 73,
+        "triangles": 506611,
+        "programs": 124,
+        "textures": 93,
+        "geometries": 40,
+        "frameMs": 10.034095011676419,
+        "quality": "medium",
+        "failedSystems": [
+          "terrain",
+          "water"
+        ],
+        "systemMs": [
+          [
+            "__render",
+            13.17
+          ],
+          [
+            "sky",
+            0.19
+          ],
+          [
+            "lighting",
+            0.07
+          ],
+          [
+            "horse",
+            0.06
+          ],
+          [
+            "wildlife",
+            0.04
+          ],
+          [
+            "player",
+            0.03
+          ],
+          [
+            "timeOfDay",
+            0.02
+          ],
+          [
+            "clouds",
+            0.02
+          ],
+          [
+            "weather",
+            0.02
+          ],
+          [
+            "town",
+            0.01
+          ]
+        ],
+        "gpuFrameMs": 18.79000000009934
+      }
+    },
+    {
+      "name": "night_camp",
+      "file": "/Users/darkeatermidir/ai-game-arena/runs/ep02/grok/main/shots/latest/night_camp.png",
+      "desc": "Deep night, campfire as the key light, stars and milky way visible",
+      "ms": 1078,
+      "stats": {
+        "drawCalls": 52,
+        "triangles": 211962,
+        "programs": 148,
+        "textures": 93,
+        "geometries": 40,
+        "frameMs": 11.040054608483109,
+        "quality": "medium",
+        "failedSystems": [
+          "terrain",
+          "water"
+        ],
+        "systemMs": [
+          [
+            "__render",
+            10.57
+          ],
+          [
+            "sky",
+            0.22
+          ],
+          [
+            "lighting",
+            0.07
+          ],
+          [
+            "horse",
+            0.06
+          ],
+          [
+            "player",
+            0.03
+          ],
+          [
+            "timeOfDay",
+            0.03
+          ],
+          [
+            "wildlife",
+            0.02
+          ],
+          [
+            "clouds",
+            0.02
+          ],
+          [
+            "weather",
+            0.02
+          ],
+          [
+            "camera",
+            0.01
+          ]
+        ],
+        "gpuFrameMs": 11.673333333432675
+      }
+    },
+    {
+      "name": "storm_plains",
+      "file": "/Users/darkeatermidir/ai-game-arena/runs/ep02/grok/main/shots/latest/storm_plains.png",
+      "desc": "Heavy rain, wet ground, dark towering cloud, wind-lashed grass",
+      "ms": 1055,
+      "stats": {
+        "drawCalls": 64,
+        "triangles": 240884,
+        "programs": 154,
+        "textures": 93,
+        "geometries": 40,
+        "frameMs": 13.666994383404726,
+        "quality": "medium",
+        "failedSystems": [
+          "terrain",
+          "water"
+        ],
+        "systemMs": [
+          [
+            "__render",
+            13.03
+          ],
+          [
+            "sky",
+            0.1
+          ],
+          [
+            "horse",
+            0.07
+          ],
+          [
+            "lighting",
+            0.03
+          ],
+          [
+            "wildlife",
+            0.03
+          ],
+          [
+            "weather",
+            0.02
+          ],
+          [
+            "player",
+            0.02
+          ],
+          [
+            "clouds",
+            0.01
+          ],
+          [
+            "physics",
+            0.01
+          ],
+          [
+            "particles",
+            0.01
+          ]
+        ],
+        "gpuFrameMs": 8.216666666666667
+      }
+    },
+    {
+      "name": "river_bend",
+      "file": "/Users/darkeatermidir/ai-game-arena/runs/ep02/grok/main/shots/latest/river_bend.png",
+      "desc": "Water surface, reflections, refraction, foam at the bank",
+      "ms": 1167,
+      "stats": {
+        "drawCalls": 52,
+        "triangles": 211962,
+        "programs": 154,
+        "textures": 93,
+        "geometries": 40,
+        "frameMs": 12.138395749081148,
+        "quality": "medium",
+        "failedSystems": [
+          "terrain",
+          "water"
+        ],
+        "systemMs": [
+          [
+            "__render",
+            11.5
+          ],
+          [
+            "sky",
+            0.11
+          ],
+          [
+            "horse",
+            0.07
+          ],
+          [
+            "lighting",
+            0.03
+          ],
+          [
+            "clouds",
+            0.03
+          ],
+          [
+            "weather",
+            0.02
+          ],
+          [
+            "wildlife",
+            0.02
+          ],
+          [
+            "player",
+            0.01
+          ],
+          [
+            "particles",
+            0.01
+          ],
+          [
+            "camera",
+            0.01
+          ]
+        ],
+        "gpuFrameMs": 14.156666666269302
+      }
+    },
+    {
+      "name": "forest_interior",
+      "file": "/Users/darkeatermidir/ai-game-arena/runs/ep02/grok/main/shots/latest/forest_interior.png",
+      "desc": "Inside the treeline, dappled light through canopy, undergrowth",
+      "ms": 1211,
+      "stats": {
+        "drawCalls": 53,
+        "triangles": 229162,
+        "programs": 154,
+        "textures": 93,
+        "geometries": 40,
+        "frameMs": 11.079079563786825,
+        "quality": "medium",
+        "failedSystems": [
+          "terrain",
+          "water"
+        ],
+        "systemMs": [
+          [
+            "__render",
+            10.85
+          ],
+          [
+            "sky",
+            0.09
+          ],
+          [
+            "horse",
+            0.04
+          ],
+          [
+            "wildlife",
+            0.04
+          ],
+          [
+            "player",
+            0.03
+          ],
+          [
+            "lighting",
+            0.02
+          ],
+          [
+            "weather",
+            0.02
+          ],
+          [
+            "particles",
+            0.01
+          ],
+          [
+            "clouds",
+            0.01
+          ],
+          [
+            "physics",
+            0.01
+          ]
+        ],
+        "gpuFrameMs": 15.013333333532016
+      }
+    },
+    {
+      "name": "player_third_person",
+      "file": "/Users/darkeatermidir/ai-game-arena/runs/ep02/grok/main/shots/latest/player_third_person.png",
+      "desc": "Over-the-shoulder gameplay framing with the character and horse",
+      "ms": 1492,
+      "stats": {
+        "drawCalls": 61,
+        "triangles": 494529,
+        "programs": 154,
+        "textures": 93,
+        "geometries": 40,
+        "frameMs": 17.643663711598492,
+        "quality": "medium",
+        "failedSystems": [
+          "terrain",
+          "water"
+        ],
+        "systemMs": [
+          [
+            "__render",
+            16.88
+          ],
+          [
+            "sky",
+            0.09
+          ],
+          [
+            "wildlife",
+            0.06
+          ],
+          [
+            "horse",
+            0.05
+          ],
+          [
+            "lighting",
+            0.03
+          ],
+          [
+            "timeOfDay",
+            0.02
+          ],
+          [
+            "weather",
+            0.02
+          ],
+          [
+            "clouds",
+            0.01
+          ],
+          [
+            "player",
+            0.01
+          ],
+          [
+            "particles",
+            0.01
+          ]
+        ],
+        "gpuFrameMs": 14.90333333313465
+      }
+    },
+    {
+      "name": "moonlit_ridge",
+      "file": "/Users/darkeatermidir/ai-game-arena/runs/ep02/grok/main/shots/latest/moonlit_ridge.png",
+      "desc": "Blue moonlit ridgeline, volumetric night haze, silhouettes",
+      "ms": 1305,
+      "stats": {
+        "drawCalls": 52,
+        "triangles": 211962,
+        "programs": 154,
+        "textures": 93,
+        "geometries": 40,
+        "frameMs": 10.269581811145468,
+        "quality": "medium",
+        "failedSystems": [
+          "terrain",
+          "water"
+        ],
+        "systemMs": [
+          [
+            "__render",
+            10.35
+          ],
+          [
+            "sky",
+            0.13
+          ],
+          [
+            "horse",
+            0.05
+          ],
+          [
+            "player",
+            0.03
+          ],
+          [
+            "lighting",
+            0.03
+          ],
+          [
+            "wildlife",
+            0.02
+          ],
+          [
+            "clouds",
+            0.02
+          ],
+          [
+            "weather",
+            0.01
+          ],
+          [
+            "physics",
+            0.01
+          ],
+          [
+            "town",
+            0.01
+          ]
+        ],
+        "gpuFrameMs": 14.733333333333333
+      }
+    }
+  ],
+  "errors": [
+    "[Engine] system \"terrain\" failed to init: ReferenceError: Cannot access 'field' before initialization\n    at bakeSplat (http://127.0.0.1:5176/src/world/terrain/Maps.js:281:26)\n    at Terrain.init (http://127.0.0.1:5176/src/world/Terrain.js:167:19)\n    at async Engine.initAll (http://127.0.0.1:5176/src/core/Engine.js:108:11)\n    at async http://127.0.0.1:5176/src/main.js:81:1",
+    "[Engine] system \"water\" failed to init: TypeError: Cannot read properties of undefined (reading 'NaN')\n    at maxDown (http://127.0.0.1:5176/src/render/water/Hydro.js:140:82)\n    at solveHydrology (http://127.0.0.1:5176/src/render/water/Hydro.js:203:15)\n    at Water.init (http://127.0.0.1:5176/src/render/Water.js:146:17)\n    at Engine.initAll (http://127.0.0.1:5176/src/core/Engine.js:108:19)\n    at async http://127.0.0.1:5176/src/main.js:81:1"
+  ],
+  "warnings": [
+    "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.",
+    "[vegetation] terrain is not ready — vegetation disabled",
+    "[scatter] terrain not ready — scatter disabled"
+  ],
+  "ok": false,
+  "timings": {
+    "bootMs": 5041
+  },
+  "totalMs": 19457
+}
